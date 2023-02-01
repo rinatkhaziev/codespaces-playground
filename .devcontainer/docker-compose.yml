@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   nginx:
-    image: nginx:latest
+    image: ghcr.io/automattic/vip-container-images/nginx:1.23.3
     ports:
       - "8080:80"
       - "443:443"
