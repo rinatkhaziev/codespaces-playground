@@ -1,0 +1,8 @@
+{
+    "name": "php-fpm-nginx",
+    "dockerComposeFile": "docker-compose.yml",
+    "forwardPorts": [
+        8080,
+        443
+    ]
+}
